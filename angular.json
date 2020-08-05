@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "few100ng"
+    }
+  },
+  "defaultProject": "few100ng",
+  "cli": {
+    "analytics": false
+  }
 }
