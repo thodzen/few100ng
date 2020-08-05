@@ -1,0 +1,16 @@
+<ul class="nav nav-pills">
+  <!--routerLinkActive is calling the 'active" bootstrap class when the link is active-->
+  <!--routerLink is similar to hrefs when going to different navlinks -->
+  <li class="nav-item"> <a class="nav-link"
+       [routerLinkActive]="['active']"
+       [routerLink]="['home']">Home</a>
+  </li>
+  <li class="nav-item"> <a class="nav-link"
+       [routerLinkActive]="['active']"
+       [routerLink]="['tip-calculator']">Tip Calculator</a>
+  </li>
+  <li class="nav-item"> <a class="nav-link"
+       [routerLinkActive]="['active']"
+       [routerLink]="['todo-list']">Todo List</a>
+  </li>
+</ul>
